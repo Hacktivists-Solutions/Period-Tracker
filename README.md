@@ -5,7 +5,7 @@
   <h3 align="center">Period Tracker</h3>
 
   <p align="center">
-    A backend system for a period tracking application. The application should allow users to track their menstrual cycles, including recording period start and end dates, symptoms, and other relevant informationDESCRIPTION
+    A backend system for a period tracking application. The application should allow users to track their menstrual cycles, including recording period start and end dates, symptoms, and other relevant information
     <br />
     <a href="https://github.com/substantialcattle5/Period_Tracking"><strong>Explore the docs »</strong></a>
     <br />
