@@ -1,5 +1,5 @@
-# myapp/tests.py
 from django.test import TestCase
+from auth.serializers import UserRegistrationSerializer
 
 
 class UserRegistrationSerializerTestCase(TestCase):
@@ -15,7 +15,6 @@ class UserRegistrationSerializerTestCase(TestCase):
         """
         Test the UserRegistrationSerializer.
         """
-        from auth.serializers import UserRegistrationSerializer
         serializer = UserRegistrationSerializer(data=self.user_data)
         self.assertTrue(serializer.is_valid())
 
