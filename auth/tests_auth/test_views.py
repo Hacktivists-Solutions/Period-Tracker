@@ -7,7 +7,6 @@ from rest_framework import status
 
 class UserRegistrationTestCase(TestCase):
     def setUp(self):
-        # Set up any necessary test data (if needed)
         self.data = {
             'email': 'test@example.com',
             'password': 'securepassword',
@@ -41,7 +40,6 @@ class UserRegistrationTestCase(TestCase):
         user = User.objects.get(username="newuser")
         self.assertEqual(user.email, "newuser@example.com")
 
-        # You can add more assertions as needed based on your requirements
 
         # Clean up (delete the test user)
         user.delete()

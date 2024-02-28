@@ -20,9 +20,6 @@ class UserRegistrationSerializer(serializers.ModelSerializer):
     Serializer for user registration.
     """
 
-    # Add any additional fields you need for registration
-    # For example, 'email', 'first_name', 'last_name', etc.
-
     class Meta:
         model = User
         fields = ('id', 'username', 'email', 'password')
